@@ -1,0 +1,9 @@
+<% if (users.totalPages > 1) { %>
+    <nav aria-label="Page navigation">
+      <div class="pagination">
+        <% for (let i = 1; i <= users.totalPages; i++) { %>
+          <a class="page-link <%= i === users.currentPage ? 'active' : '' %>" href="/user-table/?page=<%= i %>"><%= i %></a>
+        <% } %>
+      </div>
+    </nav>
+  <% } %>
