@@ -10,6 +10,8 @@ git clone https://github.com/Huzuntu/CrudProject.git
 
 2. Install dependencies:
 
+npm install
+
 3. Configure MongoDB:
 - Make sure you have MongoDB installed and running.
 - Update the MongoDB connection string in `config.env` with your MongoDB server information.
