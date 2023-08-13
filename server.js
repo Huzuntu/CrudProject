@@ -5,7 +5,7 @@ const bodyparser = require("body-parser");
 const path = require('path');
 const app = express();
 const ejs = require('ejs');
-const connectDB = require('../crud_app/server/database/connection')
+const connectDB = require('./server/database/connection')
 dotenv.config({ path: 'config.env' });
 const PORT = process.env.PORT || 8080;
 
